@@ -1,0 +1,37 @@
+
+public class prueba {
+
+    public static void main(String[] args) {
+        
+        byte esByte=7;
+        short esShort=1;
+        int esInt=40;
+        long esLong=12;
+        
+        float esFloat=3.4f;
+        double esDouble=7.4d;
+        
+        char esChar='E';
+        
+        Boolean esBoolean=true; //o puede ser false
+
+        String esString="Hola Mundo";
+        
+System.out.println("TIPOS: ");
+System.out.println("Byte - "+esByte);
+System.out.println("Short - "+esShort);
+System.out.println("Integer - "+esInt);
+System.out.println("Long - "+esLong);
+
+System.out.println("FLoat - "+esFloat);
+System.out.println("Double - "+esDouble);
+
+System.out.println("Char - "+esChar);
+
+System.out.println("Boolean - "+esBoolean);
+
+System.out.println("String - "+esString);
+        
+    }
+    
+}
